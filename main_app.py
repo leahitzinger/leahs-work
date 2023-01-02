@@ -4,10 +4,8 @@ from analysis_fun import clean
 from analysis_fun import fun
 from plotting_fun import catplotpoint
 from plotting_fun import catplotcis_c
-def df(path):
-    return pd.read_csv(path)
 
-hotel=df('C:/Users/admin/Documents/guided project/guided-project/hotel_bookings.csv')
+hotel=pd.read_csv('C:/Users/admin/Documents/guided project/guided-project/hotel_bookings.csv')
 
 clean(hotel,'adults')
 clean(hotel,'babies')
