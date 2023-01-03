@@ -1,25 +1,39 @@
+# imported all fun. 
 import matplotlib.pyplot as plt
 import pandas as pd
-from analysis_fun import clean
-from analysis_fun import fun
-from plotting_fun import catplotpoint
-from plotting_fun import catplotcis_c
+from analysis_fun import cleans_nans,duplecating_rows,counts_values
+from plotting_fun import catplotcis_cancel,catplotcount,catplotpoint
 
+
+# reading in the dataframe
 hotel=pd.read_csv('C:/Users/admin/Documents/guided project/guided-project/hotel_bookings.csv')
 
-clean(hotel,'adults')
-clean(hotel,'babies')
-clean(hotel,'children')
+
+# c=counts_values(hotel,'company',False)
+
+# cleaning  the nans for adults, babies and children column 
+cleans_nans(hotel,['adults','babies','children'],0)
 
 
-adults_1=fun(hotel,'adults')
-children_1=fun(hotel,'babies')
-babies_1=fun(hotel,'children')
+# creating new data frame for each of those columns
+#duplicating the dataframe acording to value in column
+#renaming that column and its values
+adults_1=duplecating_rows(hotel,'adults') 
+children_1=duplecating_rows(hotel,'babies')
+babies_1=duplecating_rows(hotel,'children')
 
-people=pd.concat([adults_1,children_1,babies_1], axis=0)
+#concating those three dataframes into one
+people_df=pd.concat([adults_1,children_1,babies_1],axis=0)
 
-catplotcis_c('count of arrivals per year',people)
+#plotting a catplot of arrivals per year for canceled bookings
+catplotcis_cancel(people_df,'count of arrivals per year','people','hotel')
 
-catplotpoint(people,'people')
+
+#percent of canceled arrivals per hotel
+catplotpoint(people_df,'people','is_canceled','hotel','percent of canceled arrivals per hotel')
+
+#plotting a catplot of arrivals per year
+catplotcount(people_df,'count of arrivals per year (including canceled)','people','hotel')
+
 
 
