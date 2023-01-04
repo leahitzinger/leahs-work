@@ -14,13 +14,13 @@ def agitate(detergent):
 def rinse():
     print('rinsing')   
 
-def wash_lundry(temp,speed,cycle,door_is_loocked,detergent):
+def wash_laundry(temp,speed,cycle,door_is_loocked,detergent):
     set_settings(temp,speed,cycle)
     soak(door_is_loocked)
     agitate(detergent)
     rinse()
 
-wash_lundry(30,700,'cottons',True,'persil')
+wash_laundry(30,700,'cottons',True,'persil')
 
 
         
