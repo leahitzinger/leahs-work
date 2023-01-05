@@ -1,5 +1,5 @@
 class HomeOrganizer:
-    def _init_ (self,amount_of_dishes,amount_of_rooms_to_clean,num_shirts_to_fold,wesh_the_floor):
+    def __init__ (self,amount_of_dishes,amount_of_rooms_to_clean,num_shirts_to_fold,wesh_the_floor):
             self.dishes1=amount_of_dishes
             self.rooms1=amount_of_rooms_to_clean
             self.shirts1=num_shirts_to_fold
@@ -28,7 +28,7 @@ class HomeOrganizer:
         return total3
     
     def washing(self):
-        while self==True:
+        while self.floor==True:
             print('It takes around 20 min. to wash the floor')
             return 20
             break
@@ -41,10 +41,9 @@ class HomeOrganizer:
         total=a+b+c+d
         print('It will take you around ', total ,  ' min. to get the house cleaned' ) 
 
-    def stages(self):     
-        self.shirts()
-        self.dishes() 
-        self.rooms()
-        self.washing()
-        self.calculate_time()
+def main():
+    a=HomeOrganizer('a lot',4,10,True)
+    a.calculate_time()
+
+
 

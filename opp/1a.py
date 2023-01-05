@@ -1,5 +1,5 @@
 class WashingMachine:
-    def _init_ (self,temp,speed,cycle,door_is_loocked,detergent):
+    def __init__ (self,temp,speed,cycle,door_is_loocked,detergent):
             self.temp=temp
             self.speed=speed
             self.cycle=cycle
@@ -20,7 +20,7 @@ class WashingMachine:
     def agitate(self):
         print('scrubbing with' ,self.detergent)
 
-    def rinse():
+    def rinse(self):
         print('rinsing')   
 
     def wash_laundry(self):
@@ -28,4 +28,5 @@ class WashingMachine:
         self.soak()
         self.agitate()
         self.rinse()
-
+my_washing_machine=WashingMachine(30,1200,'cottons',True,'ariel')
+my_washing_machine.wash_laundry()
