@@ -1,0 +1,6 @@
+Tomer,4.20,05/01/23
+Zada,6.30,06/01/23
+ShaareRevacha,60.5,06/01/23
+Meuhedet,120,06/02/23
+Pazgaz,60,07/01/23
+ChevratHachashmal,500.30,07/01/23								
