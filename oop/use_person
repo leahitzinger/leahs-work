@@ -1,0 +1,13 @@
+from person import Person
+def main():
+    person1=Person('leah','itzinger')
+    print(person1.get_first_name())
+    print(person1.get_last_name())
+    
+    
+    person1.set_first_name(input('enter your first name'))
+    person1.set_last_name(input('enter your last name'))
+    print(person1.get_first_name())
+    print(person1.get_last_name())
+
+main()    
