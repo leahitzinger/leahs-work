@@ -1,26 +1,26 @@
 class Rectangle:
     def __init__(self,width,length):
-        self.__width=width
-        self.__length=length
+        self.width=width
+        self.length=length
 
     @property
     def width(self):
-        return self.__width
+        return self._width
 
     @property
     def length(self):
-        return self.__length
+        return self._length
 
     @width.setter
     def width(self,value):
-        self.__width=value
+        self._width=value
 
     @length.setter
     def length(self,value):
-        self.__length=value
+        self._length=value
 
 def main():
-    my=Rectangle
+    my=Rectangle(5,10)
     my.length=5
     my.width=3
     print(my.length,my.width)
