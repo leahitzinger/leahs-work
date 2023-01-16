@@ -5,11 +5,11 @@ def cleans_nans(df,columns,fill):
     for col in columns:
         df[col]=df[col].fillna(fill)
 
-def duplecating_rows(df,colname): 
+def duplicating_rows(df,colname,col1): 
         df1 = colname + '_df'
         df1=df.reindex(df.index.repeat(df[colname]))
         df1[colname]=df1[colname].replace(df1[colname].unique(),colname)
-        df1.rename(columns={colname: "people"}, inplace=True)
+        df1.rename(columns={colname: col1}, inplace=True)
         return df1
     
 def counts_values(df,col,dropna=False):
