@@ -18,3 +18,5 @@ if __name__ == '__main__':
     result=map_reduce(df,8,max,max)
     print(result)
 
+
+
