@@ -1,0 +1,4 @@
+12:33:32,275 root INFO Added counselor
+12:33:40,927 root ERROR errorcan only concatenate str (not "Counselor") to str
+12:33:53,174 root INFO Added camper
+12:34:05,269 root ERROR errorcamper or bunk not found
