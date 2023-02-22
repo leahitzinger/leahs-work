@@ -1,0 +1,55 @@
+2023-02-19 10:57:01,814 root INFO The customer added Perlino Chocolate to cart.
+2023-02-19 10:58:49,588 root INFO The customer added Semisweeet Chocolate to cart.
+2023-02-19 12:15:29,831 root INFO The customer added Swiss Chocolate to cart.
+2023-02-19 12:16:16,546 root INFO The customer added White Chocolate to cart.
+2023-02-19 12:18:24,215 root INFO The customer added Perlino Chocolate to cart.
+2023-02-19 12:18:49,87 root INFO The customer added Dark Chocolate to cart.
+2023-02-19 12:21:14,824 root INFO The customer added Semisweeet Chocolate to cart.
+2023-02-19 12:21:29,963 root INFO The customer added Swiss Chocolate to cart.
+2023-02-20 21:29:35,619 root INFO The customer added Perlino Chocolate to cart.
+2023-02-20 21:29:52,748 root INFO The customer added Swiss Chocolate to cart.
+2023-02-20 21:30:47,651 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:11:46,208 root INFO The customer added White Chocolate to cart.
+2023-02-21 12:12:51,640 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:17:08,26 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:17:27,340 root INFO The customer added White Chocolate to cart.
+2023-02-21 12:19:04,784 root INFO The customer added White Chocolate to cart.
+2023-02-21 12:19:21,561 root INFO The customer added White Chocolate to cart.
+2023-02-21 12:30:09,874 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:30:23,127 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:30:36,683 root INFO Order 
+2023-02-21 12:33:44,953 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:34:06,24 root INFO The customer added Semisweeet Chocolate to cart.
+2023-02-21 12:34:19,557 root INFO Order 
+2023-02-21 12:40:36,235 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:40:45,64 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:40:58,158 root INFO Order 
+2023-02-21 12:41:24,568 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:41:34,472 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:41:45,235 root INFO Order 
+2023-02-21 12:43:55,678 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:44:07,942 root INFO Order 
+2023-02-21 12:45:46,284 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:45:55,382 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:46:05,568 root INFO Order 
+2023-02-21 12:49:35,170 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:49:47,482 root INFO The customer added White Chocolate to cart.
+2023-02-21 12:49:57,838 root INFO Order 
+2023-02-21 12:49:57,871 root INFO Order was 
+2023-02-21 12:57:15,274 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 12:57:24,826 root INFO credit card went through
+2023-02-21 13:00:22,424 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 13:00:33,501 root INFO credit card went through
+2023-02-21 13:00:33,518 root INFO Order went through with a total of 70 ils 
+2023-02-21 18:56:54,650 root INFO The customer added Perlino Chocolate to cart.
+2023-02-21 18:57:28,520 root INFO The customer added White Chocolate to cart.
+2023-02-21 18:57:53,940 root INFO credit card went through
+2023-02-21 18:57:54,2 root INFO Order went through with a total of 100 ils 
+2023-02-21 18:59:01,255 root INFO The customer added Semisweeet Chocolate to cart.
+2023-02-21 18:59:29,821 root INFO The customer added White Chocolate to cart.
+2023-02-21 18:59:47,463 root INFO credit card went through
+2023-02-21 18:59:47,522 root INFO Order went through with a total of 194 ils 
+2023-02-21 20:12:09,824 root INFO The customer added Swiss Chocolate to cart.
+2023-02-21 20:12:38,214 root INFO The customer added Dark Chocolate to cart.
+2023-02-21 20:13:10,24 root INFO credit card went through
+2023-02-21 20:13:10,73 root INFO Order went through with a total of 155 ils 
