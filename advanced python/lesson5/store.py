@@ -2,11 +2,9 @@ import logging
 import os
 import pandas as pd
 import re
-import random
 
 CURR_DIR = os.path.dirname(__file__)
 LOG_FOLDER = CURR_DIR + '/store_logs'
-
 
 logging.basicConfig(filename= LOG_FOLDER +'/my_store_logs.txt',
 filemode='a+',
@@ -17,7 +15,7 @@ level=logging.INFO)
 
 
 price_goods = {'Milk Chocolate': 25, 'White Chocolate': 30, 'Dark Chocolate': 20,
-               'Semisweeet Chocolate': 22, 'Swiss Chocolate': 45, 'Perlino Chocolate': 35}
+               'Semisweet Chocolate': 22, 'Swiss Chocolate': 45, 'Perlino Chocolate': 35}
 
 print('Welcome to Chocolate Fantasies!\nChocolate is always the answer...\nWe sell the following varieties:')
 for each in price_goods:
@@ -27,7 +25,7 @@ item_list=[]
 while buy_more=='yes':  
     item = input('What would you like to purchase today')
     try:
-        amount = int(input('How many can we offer you'))
+        amount = int(input('How many can we offer you?'))
     except ValueError:
         amount = int(input('pls. re-enter a valid amount'))
     try:
@@ -54,7 +52,11 @@ logging.info('credit card went through')
 print('receipt:')
 total=0
 df=pd.DataFrame(columns=['item','amount','total','price','name','phone number','order id'])
-id=random.randint(0, 10000000)
+df1=pd.read_csv('C:/Users/admin/Documents/guided project/advanced python/lesson5/store_csv.csv')
+try:
+    id=df1['order id'][len(df1)-1]+1
+except:
+    id=10000000
 for x in item_list:
     # print(x[0] ,x[3] ,'nis x ' , x[1] , ' =', x[2] ,'nis')
     total+=x[2]
@@ -63,7 +65,7 @@ for x in item_list:
     x.append(id)
     df.loc[len(df)]=x
 print(df)
-df1=pd.read_csv('C:/Users/admin/Documents/guided project/advanced python/lesson5/store_csv.csv')
+
 df3=pd.concat([df1,df])
 df3.to_csv(path_or_buf='C:/Users/admin/Documents/guided project/advanced python/lesson5/store_csv.csv',index=False)
 logging.info('Order went through with a total of {} ils '.format(total))

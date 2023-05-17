@@ -1,0 +1,101 @@
+student_id,first_name,last_name,address,state,dob,phone_number,,gender
+1,Kyle,Wilson,"834 Clark Flat Suite 116
+Wongmouth, NY 78514",OH,4/27/1926,811.075.8447,,M
+2,Jonathan,Henry,"3199 Walker Station Apt. 850
+Thomasbury, SC 78476",FL,9/16/1944,099.691.3237,,M
+3,Stephanie,Moore,"3256 Evans Flats Suite 615
+Amandachester, WI 28786",MD,6/17/1988,001-510-299-168384348,,F
+4,Lisa,Hess,"04111 Jennifer Falls Suite 678
+South Lindachester, NJ 44989",NV,5/26/1970,001-039-788-0354337,,F
+5,Nancy,Yoder,"9932 Peters Turnpike
+Lukeport, MO 39251",PA,4/6/1990,481-628-9405,,F
+6,Kevin,Simpson,"1802 Christopher Park Apt. 482
+Elizabethside, PA 14748",NJ,10/14/1946,944-278-8189,,M
+7,Christopher,Adams,"Unit 2481 Box 3797
+DPO AE 45951",CT,12/13/1943,009.811.2602,,M
+8,Larry,Stewart,"48074 Baker Plains Suite 888
+Port Crystal, WY 36389",FL,8/13/1935,-4019,,M
+9,Christopher,Scott,"9951 Baird Causeway Apt. 477
+Kelleymouth, CT 36041",IN,11/3/1939,001-033-820-7824867,,M
+10,Sarah,Lopez,"31646 Arthur River Suite 452
+Stoutview, CO 05136",AL,7/17/1976,456.720.6350,,F
+11,Jim,Deleon,"91600 Catherine Drive
+North Holly, MI 64616",MI,3/6/1908,664.946.1965,,M
+12,David,Gutierrez,"080 Jessica Valley Apt. 123
+North Samantha, ID 80437",AZ,3/28/1963,001-713-894-261325614,,M
+13,Patrick,Lang,"6385 Edwards Meadow Suite 528
+Spencebury, NC 04798",MD,7/12/1920,208-984-70396228,,M
+14,Maureen,Brown,"494 Woods Ramp Apt. 464
+Melissaport, NM 07026",WV,5/20/1984,+1-355-264-4432458,,F
+15,Stephanie,Smith,"3805 Fischer Vista Suite 833
+East Shawnport, NH 41125",VM,6/7/1935,+1-559-409-175396081,,F
+16,James,Bailey,"79128 Robinson Loop Suite 433
+Mejiabury, ME 84768",VI,11/1/1998,109-945-6403,,M
+17,Sean,Duke,"478 Tracie Cliffs
+West Jacob, DE 37099",TN,2/4/1922,+1-188-030-562463075,,M
+18,Joel,Hernandez,"894 Brian Creek Apt. 567
+Clarkburgh, GA 86681",WI,1/13/1981,488.625.980900064,,M
+19,Selena,Ellis,"83274 Sarah Junction Suite 164
+West Melinda, SC 12370",MN,4/22/1922,2728252514,,F
+20,Misty,Esparza,"78504 Gabriel Estates
+Lindsayland, NH 06446",WA,1/5/2001,667-172-6699506,,F
+21,Michael,Johnson,"0402 Johnson Drives
+Lake Cynthia, CA 22819",NY,3/26/1979,1855577835,,M
+22,Kenneth,Robinson,"USNS Keith
+FPO AE 31771",TN,4/9/1990,830.464.8870,,M
+23,Christopher,Skinner,"34778 Debbie Meadow Suite 267
+South Rebeccaland, NM 08561",AL,10/30/2003,742-747-6251,,M
+24,David,Alvarez,"514 Diaz Way
+Hoffmanburgh, AR 45582",MD,4/28/1987,871-570-2311,,M
+25,John,Ward,"48814 Debra Haven Suite 859
+Port Brian, MO 36190",NC,7/27/1959,091.051.358448082,,M
+26,Rebecca,Webb,"USNS Howell
+FPO AE 16471",NV,11/14/1935,001-642-670-710505173,,F
+27,Melissa,Ferguson,"93394 Sean Row Apt. 137
+Smithberg, MA 26034",KY,7/24/2000,795-149-5548,,F
+28,William,Hopkins,"37281 Roman Manors
+Estesview, KY 03927",UT,5/7/1966,163.660.4845,,M
+29,Christopher,Jensen,"647 Crawford Freeway
+Wilkinsonfurt, WA 75694",VT,1/8/1922,001-639-793-149339500,,M
+30,Marvin,Fernandez,"56057 Sean Falls
+Emilychester, NM 84677",IN,10/8/2011,001-314-791-97566025,,M
+31,Jeffrey,Snyder,"85962 Smith Corner
+South Kylefort, AL 09335",IL,11/7/1921,-2680,,M
+32,Gregory,Simon,"49047 Sandoval Highway Suite 686
+Martinezmouth, AL 12720",NY,2/17/1935,936.976.4491180,,M
+33,Chad,Wilson,"4302 Osborne Mall
+New Johntown, KY 74442",MI,10/10/1948,(622)616-477045513,,M
+34,Vanessa,Davis,"9183 Wilcox Ferry
+West Matthewhaven, KY 71837",NM,7/6/2016,974.879.78072148,,F
+35,Gwendolyn,Smith,"USS Miller
+FPO AA 57034",NC,5/12/1984,+1-281-107-16130431,,F
+36,Sandra,Ali,"5185 Hunter Point Apt. 688
+East Amy, VT 00929",SC,3/11/2001,7931162532,,F
+37,John,Mclaughlin,"29578 Devin Plains Suite 119
+Lake Kelly, DC 69028",TX,5/31/1984,001-123-534-68566190,,M
+38,James,Gutierrez,"53295 Owen Row
+New Margaret, PA 92872",AL,5/10/1918,105.042.19189112,,M
+39,Ann,Sanchez,"644 Felicia Hills
+Aliciaville, CT 07692",TN,2/20/1908,001-904-223-260150740,,F
+40,Rhonda,Bonilla,"1232 Lee Station Suite 773
+Whitehaven, NJ 78362",AL,10/8/2000,9802652897,,F
+41,Tiffany,Morrison,"482 Larry Ports Suite 632
+Alexischester, NE 01162",MD,10/6/1981,804-151-9842639,,F
+42,Matthew,Medina,"USNV Jones
+FPO AE 88415",NC,5/28/1942,8729704854,,M
+43,Howard,Tanner,"108 Gibbs Brook Apt. 917
+South Richardport, AK 40321",NV,11/11/1967,570.055.0412,,M
+44,Katherine,Martinez,"PSC 8228, Box 3065
+APO AA 89785",KY,8/6/2008,144.085.237319327,,F
+45,Makayla,Williams,"44547 Alvarez Turnpike
+Port Erica, MO 26481",UT,2/1/1992,957-468-0184,,F
+46,Mary,Norton,"750 Hopkins Mountains
+Josephshire, ND 72612",VT,3/16/1984,661.307.5059935,,F
+47,Jasmine,Jordan,"826 Karen Brook
+Payneborough, AK 75970",IN,11/9/1910,(221)601-3075,,F
+48,Olivia,Wood,"072 Summers Brooks Apt. 742
+Meganview, VT 58145",IL,1/17/2013,+1-865-774-45181266,,F
+49,Daniel,Wood,"1875 Crystal Loaf Apt. 394
+Port Garyberg, OH 92814",NY,1/12/2016,(067)484-6738,,M
+50,Madison,Moore,"12611 Cobb Passage
+Port Adam, WY 83042",MI,6/19/2000,001-663-619-61222392,,F
